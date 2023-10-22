@@ -1,0 +1,40 @@
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5%;
+    color: #232c3d;
+    border-bottom: 3px ridge gray;
+  }
+
+h1 {
+    font-size: 250%;
+}
+
+h1::after {
+    
+    content: 'Dickinson';
+    color: #a0a194;
+    margin-left: 5px;
+  }
+
+  header li{
+    display: inline-block;
+    margin-left: 25px;
+    font-size: 150%;
+}
+
+figure {
+    height: 200px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../Assets/Image/pexels-johannes-plenio-1103970.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+
+
