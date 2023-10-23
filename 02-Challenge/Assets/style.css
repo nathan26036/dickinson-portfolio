@@ -1,38 +1,60 @@
-
+* {
+  color: white;
+}
 header {
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    justify-content: space-between;
     padding: 1.5%;
-    color: #232c3d;
-    border-bottom: 3px ridge gray;
+    background-color: rgb(32, 32, 32);
+    border-bottom: 2px solid gray;
   }
 
 h1 {
-    font-size: 250%;
+  font-size: 250%;
 }
 
 h1::after {
-    
     content: 'Dickinson';
-    color: #a0a194;
+    color: #7d96c2;
     margin-left: 5px;
   }
 
-  header li{
+header li{
     display: inline-block;
     margin-left: 25px;
     font-size: 150%;
 }
-
+ 
 figure {
     height: 200px;
     width: 100%;
-    margin-bottom: 25px;
-    background-image: url("../Assets/Image/pexels-johannes-plenio-1103970.jpg");
+    background-image: url("../Assets/Image/2012.i518.033..sea\ ocean\ wave\ lighthouse.jpg");
     background-size: cover;
     background-position: center;
 }
+
+body {
+  background-color: rgb(32, 32, 32);
+}
+
+.about-me {
+  font-size: 300%;
+  clear: both;
+  float: left;
+  border-right: 2px solid rgb(211, 223, 228);
+  padding: 2%;
+}
+
+p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  padding: 1%;
+}
+
+
 
 
 
