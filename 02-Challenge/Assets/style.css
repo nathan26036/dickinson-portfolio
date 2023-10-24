@@ -12,8 +12,9 @@ header {
     align-items: center;
     justify-content: space-between;
     padding: 1.5%;
-    color: var(--text);
-    background-color: var(--header);
+    color: var(--text);;
+    background-image: 
+    linear-gradient(to right, var(--header), #1d242a);
     border-bottom: 2px solid var(--outline);
   }
 
@@ -55,8 +56,7 @@ nav a {
 
 }
 body {
-  background-image: 
-    linear-gradient(to right, var(--body), #7883cb);
+  background-color: var(--body);
   color: var(--text);
 
 }
