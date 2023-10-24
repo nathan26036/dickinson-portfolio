@@ -55,8 +55,10 @@ nav a {
 
 }
 body {
-  background-color: var(--body);
+  background-image: 
+    linear-gradient(to right, var(--body), #7883cb);
   color: var(--text);
+
 }
 
 #about-me {
@@ -74,6 +76,7 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
   font-size: 20px;
   padding: 1.25%;
   margin-bottom: 50px;
@@ -86,32 +89,41 @@ p {
     float: left;
     border-right: 3px solid var(--outline);
     width: 20%;
-    height:auto;
+    height:1100px;
     padding: 2%;
 }
-/*placeholder*/
-.border {  
-  margin-left: 20%;
-  height: 750px;
-  border:2px solid black;
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
 }
 
-.card {
-  flex: 1 0 0;
-  padding: 10%;
-  text-align: center;
-  border-style: solid;
-  border-width: 1px;
-  max-width: 10%;
+section img {
+  height: 250px;
+  width: 33.33%;
+  object-fit: cover;
+  object-position: center;
+  padding: 10px;
+  background-color: var(--outline);
+  margin: 25px;
 }
 
+#large-image {
+  width: 70%;
+  height: 500px;
+}
+
+section img:hover {
+  background-color: var(--heading);
+}
 
  .card-header {
     position: relative;
-    margin-top: -20px;
-    border: 3px solid white;
+    margin-bottom: -20px;
+    border: 3px solid var(--outline);
     padding: 1%;
-    border-radius: 10%;
+    border-radius: 15%;
 }
 
 #contact-me {
@@ -123,6 +135,25 @@ p {
     width: 20%;
     padding: 2%;
 }
+
+@media screen and (max-width: 992px) {
+  header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  #about-me, #portfolio, #contact-me{
+    text-align: center;
+    clear: none;
+    float: none;
+    border-right: none;
+    border-bottom: 3px solid var(--outline);
+    width: 100%;
+  }
+
+}
+
+
 
 
 
