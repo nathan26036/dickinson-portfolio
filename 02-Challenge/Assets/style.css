@@ -1,49 +1,73 @@
-* {
-  color: white;
+
+:root {
+  --header: #373F47;
+  --body: #C3C9E9;
+  --text: #5f5e57;
+  --heading: #6C91C2;
+  --outline: #AAABBC;
 }
+
 header {
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 1.5%;
-    background-color: rgb(32, 32, 32);
-    border-bottom: 2px solid gray;
+    color: var(--text);
+    background-color: var(--header);
+    border-bottom: 2px solid var(--outline);
   }
 
 h1 {
-  font-size: 250%;
+  font-size: 300%;
+  color: var(--heading);
 }
 
 h1::after {
     content: 'Dickinson';
-    color: #7d96c2;
+    color: var(--outline);
     margin-left: 5px;
   }
 
-header li{
-    display: inline-block;
-    margin-left: 25px;
-    font-size: 150%;
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  min-width: 500px;
+  font-size: 150%;
+}
+
+nav a {
+  color: var(--outline);
+  font-weight: bold;
+  text-decoration: 3px underline;
 }
  
-figure {
+#hero {
     height: 200px;
     width: 100%;
     background-image: url("../Assets/Image/2012.i518.033..sea\ ocean\ wave\ lighthouse.jpg");
     background-size: cover;
     background-position: center;
 }
+#hero-card {
+  position: absolute;
+  top: 170px;
+  right: 30px;
 
+}
 body {
-  background-color: rgb(32, 32, 32);
+  background-color: var(--body);
+  color: var(--text);
 }
 
-.about-me {
+#about-me {
+  color: var(--heading);
   font-size: 300%;
   clear: both;
   float: left;
-  border-right: 2px solid rgb(211, 223, 228);
+  border-right: 3px solid var(--outline);
+  width: 20%;
   padding: 2%;
+  margin-bottom: 50px;
 }
 
 p {
@@ -51,7 +75,53 @@ p {
   justify-content: center;
   align-items: center;
   font-size: 20px;
-  padding: 1%;
+  padding: 1.25%;
+  margin-bottom: 50px;
+}
+
+#portfolio {
+    color: var(--heading);
+    font-size: 300%;
+    clear: both;
+    float: left;
+    border-right: 3px solid var(--outline);
+    width: 20%;
+    height:auto;
+    padding: 2%;
+}
+/*placeholder*/
+.border {  
+  margin-left: 20%;
+  height: 750px;
+  border:2px solid black;
+}
+
+.card {
+  flex: 1 0 0;
+  padding: 10%;
+  text-align: center;
+  border-style: solid;
+  border-width: 1px;
+  max-width: 10%;
+}
+
+
+ .card-header {
+    position: relative;
+    margin-top: -20px;
+    border: 3px solid white;
+    padding: 1%;
+    border-radius: 10%;
+}
+
+#contact-me {
+    color: var(--heading);
+    font-size: 300%;
+    clear: both;
+    float: left;
+    border-right: 2px solid var(--outline);
+    width: 20%;
+    padding: 2%;
 }
 
 
