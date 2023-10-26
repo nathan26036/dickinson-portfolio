@@ -145,7 +145,6 @@ section img {
   padding: 10px;
   background-color: var(--heading);
   margin: 25px;
-
 }
 
 #large-image {
@@ -249,9 +248,19 @@ footer a:hover {
     margin-right: 25%;
    }
 
+   .right-card-header {
+    position: absolute;
+    right: 22%;
+  }
+
+  .card-header {
+    position: absolute;
+    left: 22%;
+    background-color: var(--heading);
+    padding: 1%;
+  }
    footer ul {  
     font-size: 120%;
-
    }
   }
 }
