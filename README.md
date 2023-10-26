@@ -18,8 +18,8 @@ The goal of this project is to make a portfolio of work to show off my skills to
 * The footer has links to my phone number emaila nd github
 * I used media queries to have the headings go above the content and had the content line up in a column
 
-![The complete version of the code](https://github.com/nathan26036/dickinson-portfolio/blob/main/02-Challenge/Assets/Image/code.PNG)
-![The Deployed image](https://github.com/nathan26036/dickinson-portfolio/blob/main/02-Challenge/Assets/Image/web-application.PNG)
+![The complete version of the code](https://github.com/nathan26036/dickinson-portfolio/blob/main/Assets/Image/code.PNG)
+![The Deployed image](https://github.com/nathan26036/dickinson-portfolio/blob/main/Assets/Image/web-application.PNG)
 
 ## Installation 
 The final code deployed can be found at 
