@@ -221,9 +221,14 @@ footer a:hover {
     margin: 5% ;
   }
 
+  .card-header {
+    position: absolute;
+    left: 33%;
+  }
+
   .right-card-header {
     position: absolute;
-    right: 42%;
+    right: 33%;
   }
 
   #large-image {
@@ -250,14 +255,12 @@ footer a:hover {
 
    .right-card-header {
     position: absolute;
-    right: 22%;
+    right: 25%;
   }
 
   .card-header {
     position: absolute;
-    left: 22%;
-    background-color: var(--heading);
-    padding: 1%;
+    left: 25%;
   }
    footer ul {  
     font-size: 120%;
@@ -273,6 +276,11 @@ h1{
 nav {
   font-size: 50%;
   margin-right: 50%;
+}
+
+.right-card-header {
+  position: absolute;
+  right: 19%;
 }
 
 footer ul {  
